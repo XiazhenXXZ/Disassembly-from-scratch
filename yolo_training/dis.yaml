@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 44
+names: ['Block-B1', 'Block-R1', 'Block-R2', 'Block-Y1', 'DDD-BASE', 'DDD-CAP', 'DDD-CIRCLE', 'DDD-CUBE', 'DDD-PIN', 'Flight-B1', 'Flight-B2', 'Flight-R1', 'Flight-R2', 'Flight-Y1', 'Flight-Y2', 'Flight-Y3', 'Jack-B1', 'Jack-R1', 'Jack-R2', 'Jack-Y1', 'Jack-Y2', 'Luban1-B', 'Luban1-R', 'Luban1-Y', 'Luban2-B', 'Luban2-R', 'Luban2-Y', 'Luban3-B1', 'Luban3-B2', 'Luban3-R1', 'Luban3-R2', 'Luban3-Y1', 'Luban3-Y2', 'Skill1-1', 'Skill1-2', 'Skill2-1', 'Skill2-2', 'Skill3-1', 'Skill3-2', 'Skill4-1', 'Skill5-1', 'Skill6-1', 'Skill7-1', 'Skillbase']
+
+roboflow:
+  workspace: dirtymoon
+  project: dirty_moon
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dirtymoon/dirty_moon/dataset/3
